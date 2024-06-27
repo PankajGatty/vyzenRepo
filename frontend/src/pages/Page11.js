@@ -4,6 +4,7 @@ import { useNavigate } from 'react-router-dom'
 
 export function Page11(props) {
    const naviate=useNavigate()
+   axios.defaults.withCredentials=true;
    const [backgroundcheck,setbackgroundcheck]=React.useState(localStorage.getItem('backgroundcheck')?localStorage.getItem('backgroundcheck'):'');
    const [drugtest,setdrugtest]=React.useState(localStorage.getItem('drugtest')?localStorage.getItem('drugtest'):'');
    const [criminalrecord,setcriminalrecord]=React.useState(localStorage.getItem('criminalrecord')?localStorage.getItem('criminalrecord'):'');
@@ -34,7 +35,7 @@ export function Page11(props) {
     localStorage.setItem('confirmdis', confirmdis)
        
     if (localStorage.getItem('backgroundcheck') && localStorage.getItem('drugtest') && localStorage.getItem('criminalrecord') && localStorage.getItem('criminalrecorddetails') && localStorage.getItem('confirmdis')) {
-        const URI='http://localhost:5001/api/add'
+        const URI="https://vyzen-repo-backend.vercel.app/api/add'
         const data={
             "name":localStorage.getItem('fname'),
             "lname":localStorage.getItem('lname'),
