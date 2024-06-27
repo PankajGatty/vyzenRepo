@@ -13,7 +13,7 @@ import { Page8 } from './pages/Page8';
 import { Page9 } from './pages/Page9';
 import { Page10 } from './pages/Page10';
 import { Page11 } from './pages/Page11';
-import { finalpage } from './pages/finalpage';
+import { finalpage} from './pages/finalpage';
 
 function App() {
   return (
