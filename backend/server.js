@@ -9,9 +9,7 @@ app.use(bodyParser.json());
 
 app.use(cors({
   credentials : true,
-  origin: ['http://localhost:3000',
-    'http://localhost:3001',
-    'http://localhost:3002']
+  origin: ['https://vyzen-repo-frontend-retkk4nxk-pankajgattys-projects.vercel.app/]
 }))
 
 app.use(express.static('public'));
