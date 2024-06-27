@@ -10,7 +10,7 @@ app.use(bodyParser.json());
 app.use(cors({
   credentials : true,
   origin: ["https://vyzen-repo-frontend.vercel.app"],
-  methods:['POST","GET"]
+  methods:['POST',"GET"]
 }))
 app.use((req, res, next) => {
   res.setHeader("Access-Control-Allow-Origin", "*");
