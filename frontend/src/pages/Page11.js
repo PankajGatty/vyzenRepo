@@ -123,7 +123,7 @@ export function Page11(props) {
         }
         axios.post(URI, data).then((response) => {
             console.log(response.data);
-            naviate('/Finalpage') 
+            naviate('/final') 
           }); 
        }
     else {
