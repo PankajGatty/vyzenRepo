@@ -30,7 +30,7 @@ function App() {
         <Route path="/page9" element={<><MainPages/><Page9/></>}/>
         <Route path="/page10" element={<><MainPages/><Page10/></>}/>
         <Route path="/page11" element={<><MainPages/><Page11/></>}/>
-        <Route path="/Finalpage" element={<><Finalpage/></>}/>
+        <Route path="/final" element={<><Finalpage/></>}/>
 
       </Routes>
     </BrowserRouter>        );
