@@ -35,7 +35,7 @@ export function Page11(props) {
     localStorage.setItem('confirmdis', confirmdis)
        
     if (localStorage.getItem('backgroundcheck') && localStorage.getItem('drugtest') && localStorage.getItem('criminalrecord') && localStorage.getItem('criminalrecorddetails') && localStorage.getItem('confirmdis')) {
-        const URI="https://vyzen-repo-backend.vercel.app/api/add'
+        const URI='https://vyzen-repo-backend.vercel.app/api/add'
         const data={
             "name":localStorage.getItem('fname'),
             "lname":localStorage.getItem('lname'),
