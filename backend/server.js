@@ -9,7 +9,7 @@ app.use(bodyParser.json());
 
 app.use(cors({
   credentials : true,
-  origin: "https://vyzen-repo-frontend.vercel.app",
+  origin: "https://vyzenrepo.onrender.com",
   methods:['POST',"GET"]
 }))
 app.use(function (req, res, next) {
