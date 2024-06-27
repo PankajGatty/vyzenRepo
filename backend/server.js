@@ -9,7 +9,7 @@ app.use(bodyParser.json());
 
 app.use(cors({
   credentials : true,
-  origin: ['https://vyzen-repo-frontend-retkk4nxk-pankajgattys-projects.vercel.app/]
+  origin: ['https://vyzen-repo-frontend-retkk4nxk-pankajgattys-projects.vercel.app/']
 }))
 
 app.use(express.static('public'));
