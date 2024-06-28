@@ -106,7 +106,7 @@ export function Page4(props) {
                 </div>
             </div>
             <br></br>
-            <div className="main2">
+            <div className="main3">
                 <div className="name">
                     <h4>Please share the links of your Online Portfolio or Website (if applicable) (If none please mention NA)<span style={{ color: 'red' }}>*</span></h4>
                     <h6>Description: Provide the link to your online portfolio or personal website.</h6>
