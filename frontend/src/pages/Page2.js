@@ -44,7 +44,7 @@ export function Page2(props) {
     return (
         <>
         <form>
-             <div className="main5">
+             <div className="main4">
                 <div className="name">
                     <h3>Current Residential Address <span style={{ color: 'red' }}>*</span></h3>
                     <h6>Description: Enter your current residential address in Full along with</h6>
@@ -56,7 +56,7 @@ export function Page2(props) {
                     </div>
             </div>
             <br></br>
-            <div className="main5">
+            <div className="main4">
                 <div className="name">
                     <h3>Permanent Residential Address <span style={{ color: 'red' }}>*</span></h3>
                     <h6>Description: Enter your Permanent residential address in Full along with</h6>
