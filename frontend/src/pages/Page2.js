@@ -73,7 +73,7 @@ export function Page2(props) {
                     <h3>Current Location <span style={{ color: 'red' }}>*</span></h3>
                     <h6>Description: Enter your current city of residence.</h6>
                         <input type="text" value={currloc} onChange={currlocHandler} id required />
-                        {(currloc!=='' && currloc!=null)?(''):(<><br></br><span style={{ color: 'red' }}> Enter your current city of residence </span></>)}   
+                        {(currloc!=='' && currloc!=null)?(''):(<><br></br><span style={{ color: 'red' }}> Enter your Current Location </span></>)}   
 
                 </div>
             </div>
@@ -83,7 +83,7 @@ export function Page2(props) {
                     <h3>Preferred Location <span style={{ color: 'red' }}>*</span></h3>
                     <h6>Description: Enter your preferred city of residence.</h6>
                         <input type="text" value={prefloc} onChange={preflocHandler} id required />
-                        {(prefloc!=='' && prefloc!=null)?(''):(<><br></br><span style={{ color: 'red' }}>  Enter your preferred city of residence. </span></>)}   
+                        {(prefloc!=='' && prefloc!=null)?(''):(<><br></br><span style={{ color: 'red' }}>  Enter your Preferred Location. </span></>)}   
 
                 </div>
             </div>
