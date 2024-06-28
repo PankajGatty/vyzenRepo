@@ -9,19 +9,19 @@ export function Page7(props) {
     const [resign, setResign] = React.useState(localStorage.getItem('resign')?localStorage.getItem('resign'):'');
     const navigate=useNavigate()
     const handlesalslip=(e)=>{
-        setSalslip(e.target.file[0].name);
+        setSalslip(e.target.files[0].name);
     }
     const handlebank=(e)=>{
-        setBank(e.target.file[0].name);
+        setBank(e.target.files[0].name);
     }
     const handleoffer=(e)=>{
-        setOffer(e.target.file[0].name);
+        setOffer(e.target.files[0].name);
     }
     const handleincrement=(e)=>{
-        setIncrement(e.target.file[0].name);
+        setIncrement(e.target.files[0].name);
     }
     const handleresign=(e)=>{
-        setResign(e.target.file[0].name);
+        setResign(e.target.files[0].name);
     }
     const handleSubmit=(e)=>{
         e.preventDefault();
