@@ -36,3 +36,59 @@
     transform: rotate(360deg);
   }
 }
+
+@media only screen and (max-width: 600px) {
+  .main2 {
+     height: 160px;
+     width: 97vw;
+     border: 1px solid rgb(217, 200, 200);
+     background-color: white;
+     border-radius: 10px;
+     padding-left: 30px;
+     padding: 5px;
+     font-size: 15px;
+ }
+
+ .main3 {
+     height: 200px;
+     width: 96vw;
+     border: 1px solid rgb(217, 200, 200);
+     background-color: white;
+     border-radius: 10px;
+     padding-left: 30px;
+     padding: 5px;
+     font-size: 15px;
+ }
+ .main4 {
+     height: 225px;
+     width: 96vw;
+     border: 1px solid rgb(217, 200, 200);
+     background-color: white;
+     border-radius: 10px;
+     padding-left: 30px;
+     padding: 5px;
+     font-size: 15px;
+ }
+ .submit2 {
+  width: 50vw;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  justify-content: flex-end;
+  margin-top: -44px;
+}
+.submit1 {
+  width: 50vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-left: -160px;
+} 
+}
+.submit2 {
+  width: 50vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-top: -44px;
+}
