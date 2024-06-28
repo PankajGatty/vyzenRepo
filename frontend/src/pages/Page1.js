@@ -173,7 +173,7 @@ export function Page1(props) {
 
                 </div>
                 <br></br>
-                <div className="main2">
+                <div className="main4">
                     <div className="name">
                         <h4> Marital Status <span style={{ color: 'red' }}>*</span></h4>
                         <h6>Description: Select your marital status.</h6>
