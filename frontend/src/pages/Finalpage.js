@@ -10,7 +10,7 @@ function Finalpage() {
         <h6> <p>
         <i><strong>
         Please fill out the following details accurately to apply for the position..
-         Ensure you upload necessary documents where required. Fields marked with an asterisk (*) are mandatory.
+         Ensure you upload necessary documents where required. Fields marked with an asterisk  (<h6 style={{ color: 'red' }}> * </h6>)  are mandatory.
         </strong></i>
      </p></h6>  
     <h6 style={{ color: 'red' }}>* Indicates required question</h6>
