@@ -145,9 +145,9 @@ export function Page5(props) {
                 </div>
             </div>
             <br></br>
-            <div className="main2">
+            <div className="main4">
                 <div className="name">
-                    <h5>Upload Proof of Education Completion <span style={{ color: 'red' }}>*</span></h5>
+                    <h3>Upload Proof of Education Completion <span style={{ color: 'red' }}>*</span></h5>
                     <h6>Description: Upload the proof of your education completion. </h6>
                     <h6>Please upload your Consolidated MarkSheet or Semester Marksheet, Provisional Degree</h6>
                     <h6>Certificate, Degree Completion Cetificate.</h6>
